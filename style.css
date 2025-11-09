@@ -1,4 +1,4 @@
-/* p{
+/* /* p{
     color: rgb(26, 10, 120);
     background-color: rgb(232, 116, 232);
     text-align: center;
@@ -11,9 +11,9 @@
 #p3{
     font-size: "67"; */
 /* } */
-div{
-    display: inline-block;
-}
+/* div{
+    display: inline-block; */
+/* }
 
 #box1{
     height: 100px;
@@ -53,4 +53,28 @@ div{
 }
 .imp{
     border: solid 500px;
+/* } */ 
+/* div{
+    border:10px solid black;
+    padding: solid rgb(214, 136, 136);
 }
+h1{
+    font-size: 20px;
+    color: blueviolet;
+    text-align: center;
+}
+p{
+    color: red;
+} */
+
+/* #a{
+    border: 5px solid black;
+    padding: 20px;
+}
+
+#B{
+    border:20px solid blue;
+    background-color: yellow;
+    padding: 10px;
+    text-align: center;
+} */
