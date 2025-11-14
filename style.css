@@ -78,3 +78,18 @@ p{
     padding: 10px;
     text-align: center;
 } */
+
+.container{display:flex;
+
+    flex-flow: column wrap;
+height:600px;
+width: 400px;
+border: 2px;
+background-color: green;}
+
+.item{
+    height: 100px;
+    width: 150px;
+    background-color: brown;
+    border:2px solid black
+}
