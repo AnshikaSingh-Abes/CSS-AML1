@@ -78,7 +78,7 @@ p{
     padding: 10px;
     text-align: center;
 } */
-
+/* 
 .container{display:flex;
 
     flex-flow: column wrap;
@@ -92,4 +92,16 @@ background-color: green;}
     width: 150px;
     background-color: brown;
     border:2px solid black
+} */
+
+#box{
+    background-color: blue;
+}
+
+.heading{
+    color:rgba(255,0, 0, 0.5);
+}
+
+button{
+    background-color: green;
 }
