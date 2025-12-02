@@ -4,12 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-        <link rel="stylesheet" href="style.css">
+<style>
+    #D1{
+    height: 60px;
+    background-color: black;
+}
+a{
+    color: white;
+    margin-right: 200px;
+}
+button{
+    background-color: #f08804;
+    color: white;
+}
+h1{
+    font-size: 25px;
+    color: #f08804;
+    display: inline;
+    padding-right: 200px;
+} 
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    display:inline-block
+}
+footer{
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
 
+#D2{
+    height: 550px;
+}
+</style>
 </head>
 <body>
-    <header>This is header</header>
-    <div></div>
-    <footer>This is Footer</footer>
+    <header>
+        <div id="D1">
+        <h1>amazon.in</h1>
+        <a>Account</a>
+        <a>My cart</a>
+        <a>Contact us</a>
+<label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="search Amazon.in" required>
+        <button>Search</button>
+    </header>
+    <hr>
+    <div id="D2">
+    <div class="box" style="background-color: rgba(255,0,0,0.5);">Hello</div>
+    <div class="box" style="background-color: rgba(0,0,24,0.5)"></div>
+    <div class="box" style="background-color: rgba(25,100,0,0.5)"></div>
+    </div>
+    <hr>
+    <footer>This is Footer<br>
+        &copy;Made with care!
+    </footer>
 </body>
 </html>

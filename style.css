@@ -161,7 +161,7 @@ div{
 } */
 
 
-div{
+#D1{
     height: 60px;
     background-color: black;
 }
@@ -179,3 +179,11 @@ h1{
     display: inline;
     padding-right: 200px;
 } 
+
+#D2{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    border: 60px solid red;
+}
+

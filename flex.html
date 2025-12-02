@@ -4,13 +4,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+
+        #container{
+            height: 300px;
+            width: 800px;
+            display: flex;
+            justify-content: center;
+            /* flex-wrap:wrap; */
+            align-items: flex-start;
+            /* align-content: flex-start; */
+
+        }
+        div{
+            height: 100px;
+            width: 50px;
+            display:inline-block;
+            border: 3px solid black;
+        }
+
+        #Box1{
+            background-color: aqua;
+            flex-grow: 1;
+        }
+
+        #Box2{
+            flex-grow: 1;
+            /* align-self: flex-end; */
+            /* flex-shrink: 0.5; */
+            height: 200px;
+            background-color:rgb(229, 136, 136);
+        }
+
+        #Box3{
+            height: 75px;
+            background-color:rgb(114, 176, 114);
+        }
+
+        #Box4{
+            background-color:rgb(233, 45, 45);
+        }
+
+        #Box5{
+            /* align-self: flex-end; */
+            background-color:#a873e5;
+        }
+    </style>
 </head>
-<link rel="stylesheet" href="style.css">
-<body><div class="container">
-    <div class ="item">item1</div>
-    <div class ="item">item2</div>
-    <div class ="item">item3</div>
-    <div class ="item">item4</div>
+<body><h1>Flexbox Playground</h1>
+    <div id ="container">
+    <div id="Box1">item1</div>
+    <div id="Box2">item2</div>
+    <div id="Box3">item3</div>
+    <div id="Box4">item4</div>
+    <div id="Box5">item4</div>
     </div>
 </body>
 </html>
